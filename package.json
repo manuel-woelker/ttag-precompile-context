@@ -1,0 +1,13 @@
+{
+  "name": "ttag-precompile-context",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "update": "ttag update x.po test.js",
+    "precompile": "ttag replace x.po test.x.js test.js"
+  },
+  "dependencies": {
+    "ttag-cli": "^1.7.1"
+  }
+}
