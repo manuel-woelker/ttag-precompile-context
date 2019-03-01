@@ -2,5 +2,9 @@
 
 var _ttag = require("ttag");
 
-console.log("one");
-"two";
+// works
+console.log("one"); // doesn't work, only outputs "two;"
+
+"two"; // works - wrapped with a bogus function
+
+console.log("two");
